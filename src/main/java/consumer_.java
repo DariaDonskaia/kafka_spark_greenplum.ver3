@@ -80,13 +80,7 @@ public class consumer_ {
                     .load();
 
             spark.udf().register(GEN_UUID,(String s)->
-
-
             s = UUID.randomUUID().toString()
-
-
-
-
         , DataTypes.StringType);
 
 
